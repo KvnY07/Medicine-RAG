@@ -1,0 +1,57 @@
+# 药物生产规范检查清单问题生成器
+
+## 关键点：
+
+Standard Operating Procedures for Hygiene Control 卫生控制的标准操作程序
+The Standard Operating Procedures (SOPs) for Hygiene Control should include the following key components: Procedures for monitoring and following up on the health management and conditions of the personnel, ensuring no infectious diseases or health risks are present. Hygiene instructions should be provided to working personnel, including handwashing and disinfection guidelines, to prevent contamination of products. Specifications for clothing, laundry, and gowning must be clearly defined to ensure all personnel wear appropriate attire that meets hygiene requirements. The cleaning method for work areas, including disinfection when necessary, and the cleaning frequency should be well-established to maintain a dust- and germ-free environment. The chemicals and instruments used for cleaning work areas must meet hygiene standards to ensure they are safe and effective. Methods for evaluating cleanliness should be implemented and regularly checked to ensure they meet set standards. Hygiene control guidelines specific to the production area must be documented and followed, with instructions for cleaning production facilities and evaluating cleanliness effectiveness to ensure no contamination risks. Additionally, designated personnel should be responsible for cleanliness, with clear cleaning and disinfection programs, methods, and tools used in cleaning. The disassembly and assembly methods of production equipment should be standardized to ensure hygiene is not compromised, and the removal of marks from previous operations should be carried out to prevent cross-contamination. Cleanliness should be maintained throughout production, and cleanliness checks must be performed before operation starts. Pest control measures should be in place, with regular checks to prevent any pest intrusion. Lastly, other essential matters, such as the responsibilities of the production department head, should also be specified to ensure proper implementation of hygiene management and ensure product quality and production safety.
+
+## Context:
+
+你需要根据提供{response}生成有关**关键点**检查清单。每个检查项需具备可操作性、清晰性，并严格限定在提供文章内容描述范围内。
+
+## Instruction:
+**Output:**
+   - 首先仔细阅读文章内容提到的相关规范
+   - 然后根据提供的文章内容生成一组用于验证**关键点**的检查问题。
+   - 每个问题必须符合以下要求：
+     - **范围限制：** 问题不得超出提供的文章内容中明确提到的范围和主题。
+     - **可操作性：** 问题需具备实际操作性，且能够通过“Yes”或“No”回答。
+     - **清晰性：** 问题需简洁明确，表达无歧义。
+   - 对每个问题：
+     - 提供中文**原因**，结合提供的文章内容，说明为什么需要问这个问题。
+     - 提供在文章内容中的原句（原句用英语表示）
+
+## Notes:
+- 每个检查项需清晰且具备操作性。
+- 每个问题的描述要精确并且充分覆盖规范内容。
+- 每个检查项需严格限定在输入内容明确描述的范围内，不得添加输入中未提及的内容。
+- 确保所有问题能够用“Yes”或“No”回答。
+- 确保提供中文原因以增强理解。
+- 对于涉及到“应该”字眼的条目，生成的问题要聚焦于规范建议是否被满足或是否已经实施。
+- 对于“必须”或“不应”字眼的条目，生成的问题要聚焦于是否严格遵守规范要求。
+- 生成的问题要清晰并且具体，避免过于笼统或模糊。
+
+---
+
+## 输出格式示例:
+
+**假设输入：**
+
+Appropriate measures should be established and implemented to prevent crosscontamination from personnel, materials, etc. moving from one dedicated area to another.
+
+**输出**
+
+| **Checklist**                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Yes, No or N/A** | **Comment**                                                  |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :----------------- | :----------------------------------------------------------- |
+| **1. Are there production areas for the production of medicinal products?**<br>生产区域是否有用于药品生产的设施和仪器？                                                                                                                                                                                                                                                                                                                                                                        |                    | 适用于所有药物类型，生产区域必须具备必要的设施和设备以支持药品生产。 |
+| **1.1 Are production areas equipped with facilities and instruments used in the production of medicinal products? (except for contract manufacture)**<br>生产区域是否配备了用于药品生产的设施和仪器？（委托制造除外）                                                                                                                                                                                                                                                                                    |                    | 适用于所有药物类型，所有生产区域必须配备生产药品所需的设备和设施。 |
+| **1.2 Are production areas for sterile products (injections, ophthalmic solutions, ophthalmic ointments), biological preparations, penicillins or sex hormones separated from other production areas by using different HVAC systems, entrances and exits, drains, etc? (If closed systems to prevent cross-contamination are used, the separation may not be required.)**<br>无菌药物（如注射剂、眼科药物等）、生物制剂、青霉素或性激素的生产区域是否通过不同的HVAC系统、入口出口、排水等措施与其他生产区域隔离？（如果采用封闭系统防止交叉污染，可能不需要隔离） |                    | 无菌药物（如注射剂、眼科药物等）需要有严格的环境隔离措施，而非无菌药物则没有那么高的要求。 |
+| **1.3 Are work areas equipped with the following?**<br>工作区域是否配备以下设施？                                                                                                                                                                                                                                                                                                                                                                                                       |                    |                                                              |
+| **1.3.1) a worktable**<br>工作台                                                                                                                                                                                                                                                                                                                                                                                                                                              |                    | 适用于所有药物类型，生产工作区域需要配备基本工作台。         |
+| **1.3.2) a dust collection system if dust is generated in the work area**<br>如工作区内产生粉尘，是否配备集尘系统？                                                                                                                                                                                                                                                                                                                                                                           |                    | 适用于所有产生粉尘的药物生产，确保生产环境的清洁。           |
+| **1.3.3) a humidity control system if any hygroscopic material is used in operations**<br>如生产中使用吸湿性物料，是否配备湿度控制系统？                                                                                                                                                                                                                                                                                                                                                          |                    | 适用于所有需要控制湿度的药物生产，尤其是对湿度敏感的药物（如某些口服固体剂型）。 |
+| **1.3.4) a drying facility with automatic temperature controller, if necessary**<br>如有需要，是否配备带自动温控的干燥设施？                                                                                                                                                                                                                                                                                                                                                                   |                    | 适用于需要干燥过程的药物生产，如某些固体制剂或外用制剂。     |
+| **2. Are there quality control laboratories?** <br>有质量控制实验室吗？                                                                                                                                                                                                                                                                                                                                                                                                              |                    |                                                              |
+| **2.1 Are there the facilities and instruments required for quality control in the laboratories? (except for contract analysis)**<br>质量控制实验室是否配备了所需的设施和仪器？（委托分析除外）                                                                                                                                                                                                                                                                                                         |                    | 适用于所有药物，无论是液体、固体还是注射剂，都需要配备相应的质量控制设施。 |
+
+---
